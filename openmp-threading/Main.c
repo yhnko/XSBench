@@ -75,6 +75,7 @@ int main( int argc, char* argv[] )
 
 	// Start Simulation Timer
 	omp_start = get_time();
+    ariel_enable();
 
 	// Run simulation
 	if( in.simulation_method == EVENT_BASED )
