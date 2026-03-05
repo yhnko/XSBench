@@ -3,6 +3,7 @@
 #ifdef MPI
 #include<mpi.h>
 #endif
+#include "annotations.h"
 
 int main( int argc, char* argv[] )
 {
